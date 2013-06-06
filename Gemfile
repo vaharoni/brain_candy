@@ -7,7 +7,6 @@ gem 'rails', '3.2.13'
 
 gem 'sqlite3'
 
-
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -24,7 +23,7 @@ gem 'jquery-rails'
 gem 'pry-rails'
 gem "less-rails"
 gem 'twitter-bootstrap-rails', git: 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
-#gem 'bootstrap_form'
+gem 'bootstrap_form'
 
 group :development, :test do
   gem 'rspec-rails', '~> 2.0'

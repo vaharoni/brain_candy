@@ -11,12 +11,13 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130606183859) do
+ActiveRecord::Schema.define(:version => 20130606190926) do
 
   create_table "brain_candies", :force => true do |t|
     t.string   "name"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",          :null => false
+    t.datetime "updated_at",          :null => false
+    t.integer  "difficulty_level_id"
   end
 
   create_table "difficulty_levels", :force => true do |t|
