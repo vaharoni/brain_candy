@@ -1,0 +1,2 @@
+module BrainCandiesHelper
+end
