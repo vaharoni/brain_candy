@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-BrainCandy::Application.load_tasks
+BrainCandyApp::Application.load_tasks
