@@ -24,7 +24,7 @@ gem 'jquery-rails'
 gem 'pry-rails'
 gem "less-rails"
 gem 'twitter-bootstrap-rails', git: 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
-gem 'bootstrap_form'
+#gem 'bootstrap_form'
 
 group :development, :test do
   gem 'rspec-rails', '~> 2.0'
